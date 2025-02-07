@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <?php include 'navbar.html'; ?>
+    <?php include 'navbar.php'; ?>
 
     <div class="container py-5">
       <section id="impressum">
@@ -627,7 +627,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include 'footer.html'; ?>
+    <?php include 'footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
