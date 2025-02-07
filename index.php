@@ -9,13 +9,13 @@
 </head>
 <body>
     <!-- Navigation -->
-    <?php include 'navbar.html'; ?>
+    <?php include 'navbar.php'; ?>
 
     <!-- Info Sektion -->
     <section id="info" class="info-section">
         <div class="container">
             <h1>Willkommen bei Journaful</h1>
-            <p>Dein persönlicher Begleiter für Journaling und Habit Tracking</p>
+            <p>Es handelt sich hier um eine Beispielwebsite. Es wird nichts verkauft</p>
         </div>
     </section>
 
@@ -31,7 +31,9 @@
     </section>
 
     <!-- Footer -->
-    <?php include 'footer.html'; ?>
+    <?php include 'footer.php'; ?>
+
+    <?php include 'cookies.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

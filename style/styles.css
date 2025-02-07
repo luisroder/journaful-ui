@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fondamento';
-  src: url('resources/fonts/Fondamento/Fondamento-Regular.ttf')
+  src: url('../resources/fonts/Fondamento/Fondamento-Italic.ttf')
     format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -85,4 +85,57 @@
 
 .card:hover {
   transform: translateY(-5px);
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-size: 0.95rem;
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cookie-text {
+  flex: 1;
+}
+
+.cookie-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Media query for tablets and up */
+@media (min-width: 768px) {
+  .cookie-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .cookie-buttons {
+    flex-direction: row;
+    gap: 1rem;
+    min-width: 250px;
+  }
+
+  .btn {
+    white-space: nowrap;
+  }
+}
+
+/* Ensure buttons maintain consistent width on larger screens */
+@media (min-width: 992px) {
+  .cookie-buttons {
+    min-width: 300px;
+  }
 }
