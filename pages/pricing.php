@@ -1,4 +1,5 @@
-<section id="preise" class="section-padding bg-light">
+<!-- Preise Section -->
+<section id="preise" class="fullpage-section bg-light">
     <div class="container">
         <h2 class="text-center mb-5">Wähle deinen Weg zur Selbstentfaltung</h2>
         <div class="row justify-content-center gap-4">
@@ -82,5 +83,4 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
